@@ -1,0 +1,63 @@
+body{
+	font-family: 'Times New Roman', Times, serif;
+	color: crimson;
+}
+ul#dota img{
+    height: 200;
+}
+ul#dota2 li {
+    display: block;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 30px;
+    float: left;
+    position: relative;
+    text-align: center;
+    margin-right: 50px;
+    border: 2px solid#ccc;
+}
+li ul {
+    display: none;
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: 0;
+    font-weight: normal;
+    padding: 1px 0 10px 0;
+    margin-left: -1px;
+}
+ul#dota li a:hover{
+	background:#888;
+	color:#fff;
+	}
+	
+ul#dota li {
+    float: left;
+    position: relative;
+    width: 150x;
+    text-align: center;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+}
+ul {
+	list-style: none;
+	padding: 10;
+	margin: 5;
+}
+li:hover ul, li.over ul {
+	display: block;
+}
+li>ul {
+	top: auto;
+	left: auto;
+}
+ul#dota li ul.chose li{
+	border-width:0 1px 1px 1px!important;
+}
+
+ul#dota li ul.sub li a{
+	font-weight: normal!important;	
+}
