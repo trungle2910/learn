@@ -52,7 +52,7 @@ li:hover ul, li.over ul {
 }
 li>ul {
 	top: auto;
-	left: auto;
+	left: -1;
 }
 ul#dota li ul.chose li{
 	border-width:0 1px 1px 1px!important;
@@ -61,3 +61,14 @@ ul#dota li ul.chose li{
 ul#dota li ul.sub li a{
 	font-weight: normal!important;	
 }
+figure {
+    position: relative;
+  }
+ figure>img{
+     height: 160;
+     width: 250;
+     float: left;
+     top: auto;
+     padding: 10;
+     margin: 5;
+ }  
