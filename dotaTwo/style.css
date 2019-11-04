@@ -33,7 +33,7 @@ ul#dota li a:hover{
 	background:#888;
 	color:#fff;
 	}
-	
+
 ul#dota li {
     float: left;
     position: relative;
@@ -54,21 +54,25 @@ li>ul {
 	top: auto;
 	left: -1;
 }
+ul#dota2 li ul>li {
+  width: 200px;
+}
 ul#dota li ul.chose li{
 	border-width:0 1px 1px 1px!important;
 }
 
 ul#dota li ul.sub li a{
-	font-weight: normal!important;	
+	font-weight: normal!important;
 }
 figure {
     position: relative;
+    width: 1500px
   }
  figure>img{
      height: 160;
      width: 250;
-     float: left;
      top: auto;
      padding: 10;
      margin: 5;
- }  
+     display: inline-block;
+ }
